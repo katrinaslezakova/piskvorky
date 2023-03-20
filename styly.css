@@ -2,11 +2,6 @@ html {
   box-sizing: border-box;
 }
 
-*,
-::after,
-::before {
-  box-sizing: inherit;
-}
 
 body {
   background-image: linear-gradient(#615dad, #ffc8da);
@@ -28,14 +23,14 @@ body {
   width: 100%;
 }
 
-.description {
+.uvod {
   margin: auto;
   text-align: center;
 }
 
 h1 {
   font-family: 'Lobster', sans-serif;
-  text-align: center;
+
   font-size: 2.5rem;
   margin-top: 30px;
 }
