@@ -1,0 +1,73 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+
+body {
+  background-image: linear-gradient(#615dad, #ffc8da);
+  background-attachment: fixed;
+
+}
+
+.content {
+  width: 420px;
+  margin: auto;
+  color: white;
+  background: #283e50;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.header {
+  display: block;
+  width: 100%;
+}
+
+.description {
+  margin: auto;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Lobster', sans-serif;
+  font-size: 2.5rem;
+  margin-top: 30px;
+}
+
+p {
+  padding: 10px 20px;
+  margin-top: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 150%;
+}
+
+.button {
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding: 20px 0px;
+}
+
+.pravidla {
+  background-color: #1fcca4;
+  border-bottom: 1px solid #283e50;
+}
+
+.pravidla:hover {
+  background-color: #1cbb96;
+}
+
+.zacit-hrat {
+  background-color: #0197f6;
+}
+
+.zacit-hrat:hover {
+  background-color: #0090e9;
+}
